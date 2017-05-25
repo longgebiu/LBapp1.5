@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF3030</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="yanzhenmacolor">#000000</color>
+    <color name="logintext">#FFFFFF</color>
+    <color name="logincolor">#5CACEE</color>
+    <color name="registercolor">#FFFFFF</color>
+
+
+</resources>

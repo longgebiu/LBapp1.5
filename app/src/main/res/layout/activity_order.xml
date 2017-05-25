@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pl.lbapps.Order"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="待配送"
+            android:id="@+id/button"
+            android:background="@drawable/radiobuttom"
+            android:layout_weight="0.48" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="已送达"
+            android:id="@+id/button2"
+            android:background="@drawable/radiobuttom"
+            android:layout_weight="0.48" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:weightSum="1"
+        android:background="@drawable/boder"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:showDividers="middle"
+        android:layout_weight="0.24">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单号：21231616516"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预计到达时间：2017-6-5"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="待配送"
+                android:layout_marginLeft="150dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:textSize="15dp"
+                android:drawableRight="@drawable/jiantou"
+                android:text="收货地址：广东省广州市白云区钟落潭广东机电职业技术学院"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.27">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收货人：李四&#160;&#160;"
+
+                android:textSize="15dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电话：13600000000"
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="取消订单"
+            android:background="@drawable/radiobuttom"
+            android:layout_marginLeft="270dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:weightSum="1"
+        android:background="@drawable/boder"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:showDividers="middle"
+        android:layout_weight="0.24">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单号：21231616516"
+            android:id="@+id/textView1" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预计到达时间：2017-6-5"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="待配送"
+                android:layout_marginLeft="150dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:textSize="15dp"
+                android:drawableRight="@drawable/jiantou"
+                android:text="收货地址：广东省广州市白云区钟落潭广东机电职业技术学院"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.27">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收货人：李四&#160;&#160;"
+
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电话：13600000000"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="取消订单"
+            android:background="@drawable/radiobuttom"
+            android:layout_marginLeft="270dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

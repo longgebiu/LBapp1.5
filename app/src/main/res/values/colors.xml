@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="background_index">#EDEFEE</color>
+    <color name="yanzhenmacolor">#000000</color>
+    <color name="logintext">#FFFFFF</color>
+    <color name="logincolor">#5CACEE</color>
+    <color name="registercolor">#FFFFFF</color>
+    <color name="buttoncolor">#FDF5E6</color>
+
+</resources>

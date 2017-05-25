@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_Login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pl.lbapps.Login"
+    android:orientation="vertical">
+
+    <com.pl.lbapps.view.CustomTitleBar
+        android:id="@+id/ct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_text=""
+        >
+
+    </com.pl.lbapps.view.CustomTitleBar>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/editText1"
+        android:hint="@string/zhanghao"
+        android:background="@drawable/edittext"
+        android:paddingLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/editText2"
+        android:hint="@string/mima"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:layout_below="@+id/editText1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:inputType="numberPassword"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login"
+        android:textColor="@color/logincolor"
+        android:id="@+id/login"
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/editText3"
+        android:layout_alignEnd="@+id/editText3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:text="记住密码"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rem_pw" />
+
+        <CheckBox
+            android:text="自动登录"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/auto_login" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:id="@+id/register"
+            android:textColor="@color/registercolor"
+            android:background="@drawable/register"
+            android:layout_below="@+id/forgetpassword"
+            android:layout_centerHorizontal="true"
+            android:layout_width="80dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgetpassword"
+            android:id="@+id/forgetpassword"
+            android:background="@drawable/yanzhengma"
+            android:layout_below="@+id/login"
+            android:layout_alignRight="@+id/login"
+            android:layout_alignEnd="@+id/login"
+            android:layout_marginTop="26dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
